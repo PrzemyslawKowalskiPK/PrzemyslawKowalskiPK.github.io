@@ -1,12 +1,10 @@
-# Przemysław K.
+# Przemysław Kowalski
 
 Full-Stack .NET Engineer
 
-**[📄 Download PDF Resume](PrzemyslawKowalskiResume.pdf)**
-
-[przemyslawkowalski01pk@gmail.com](mailto:przemyslawkowalski01pk@gmail.com)
-[LinkedIn](https://linkedin.com/in/przemyslaw-kowalski-pk)
-[GitHub](https://github.com/PrzemyslawKowalskiPK)
+📧 [przemyslawkowalski01pk@gmail.com](mailto:przemyslawkowalski01pk@gmail.com)  
+💼 [LinkedIn](https://linkedin.com/in/przemyslaw-kowalski-pk)  
+🔗 [GitHub](https://github.com/PrzemyslawKowalskiPK)
 
 ## Summary
 
@@ -122,7 +120,3 @@ _2017 – 2021_
 
 **AI_devs3 RELOADED**  
 _August 2025_
-
----
-
-**[📄 Download PDF Resume](PrzemyslawKowalskiResume.pdf)**

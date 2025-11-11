@@ -13,6 +13,12 @@ public static class HtmlTemplate
     /// <returns>Complete HTML document as string</returns>
     public static string CreateDocument(string htmlBody, string title = "Resume")
     {
+        var downloadLink = @"<div class=""download-button"" style=""text-align: center; margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-radius: 5px;"">
+    <a href=""PrzemyslawKowalskiResume.pdf"" download style=""display: inline-block; padding: 12px 24px; background-color: #3498db; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;"">
+        Download PDF
+    </a>
+</div>";
+
         return $@"<!DOCTYPE html>
 <html lang=""en"">
 <head>
@@ -24,7 +30,9 @@ public static class HtmlTemplate
     </style>
 </head>
 <body>
+{downloadLink}
 {htmlBody}
+{downloadLink}
 </body>
 </html>";
     }
@@ -95,11 +103,11 @@ public static class HtmlTemplate
 
         a {
             color: #3498db;
-            text-decoration: none;
+            text-decoration: underline;
         }
 
         a:hover {
-            text-decoration: underline;
+            opacity: 0.8;
         }
 
         code {
@@ -162,6 +170,10 @@ public static class HtmlTemplate
         @media print {
             body {
                 padding: 20px;
+            }
+            
+            .download-button {
+                display: none !important;
             }
         }";
     }
