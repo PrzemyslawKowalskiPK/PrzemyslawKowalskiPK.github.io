@@ -14,7 +14,7 @@ public static class HtmlTemplate
     public static string CreateDocument(string htmlBody, string title = "Resume")
     {
         var downloadLink = @"<div class=""download-button"" style=""text-align: center; margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-radius: 5px;"">
-    <a href=""PrzemyslawKowalskiResume.pdf"" download style=""display: inline-block; padding: 12px 24px; background-color: #3498db; color: black; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;"">
+    <a href=""PrzemyslawKowalskiResume.pdf"" download style=""display: inline-block; padding: 12px 24px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"" aria-label=""Download resume as PDF"">
         Download PDF
     </a>
 </div>";
@@ -65,7 +65,7 @@ public static class HtmlTemplate
     
     <!-- PWA Manifest -->
     <link rel=""manifest"" href=""/manifest.json"">
-    <meta name=""theme-color"" content=""#3498db"">
+    <meta name=""theme-color"" content=""#ffaa33"">
     <meta name=""apple-mobile-web-app-capable"" content=""yes"">
     <meta name=""apple-mobile-web-app-status-bar-style"" content=""black-translucent"">
     <meta name=""apple-mobile-web-app-title"" content=""PK Resume"">
@@ -98,9 +98,12 @@ public static class HtmlTemplate
     </style>
 </head>
 <body>
-{downloadLink}
-{htmlBody}
-{downloadLink}
+    <a href=""#main-content"" class=""skip-link"">Skip to main content</a>
+    {downloadLink}
+    <main id=""main-content"" role=""main"">
+        {htmlBody}
+    </main>
+    {downloadLink}
 </body>
 </html>";
     }
@@ -116,6 +119,22 @@ public static class HtmlTemplate
             box-sizing: border-box;
         }
 
+        /* Skip link for accessibility */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #0066cc;
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
@@ -124,6 +143,10 @@ public static class HtmlTemplate
             margin: 0 auto;
             padding: 40px 20px;
             background-color: #ffffff;
+        }
+
+        main {
+            min-height: 50vh;
         }
 
         h1 {
@@ -170,12 +193,19 @@ public static class HtmlTemplate
         }
 
         a {
-            color: #3498db;
+            color: #0066cc;
             text-decoration: underline;
+            font-weight: 500;
         }
 
         a:hover {
-            opacity: 0.8;
+            color: #004499;
+            text-decoration: underline;
+        }
+
+        a:focus {
+            outline: 3px solid #0066cc;
+            outline-offset: 2px;
         }
 
         code {
