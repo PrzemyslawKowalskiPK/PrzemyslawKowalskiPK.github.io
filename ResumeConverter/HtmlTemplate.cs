@@ -14,7 +14,7 @@ public static class HtmlTemplate
     public static string CreateDocument(string htmlBody, string title = "Resume")
     {
         var downloadLink = @"<div class=""download-button"" style=""text-align: center; margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-radius: 5px;"">
-    <a href=""PrzemyslawKowalskiResume.pdf"" download style=""display: inline-block; padding: 12px 24px; background-color: #3498db; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;"">
+    <a href=""PrzemyslawKowalskiResume.pdf"" download style=""display: inline-block; padding: 12px 24px; background-color: #3498db; color: black; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;"">
         Download PDF
     </a>
 </div>";
@@ -24,7 +24,75 @@ public static class HtmlTemplate
 <head>
     <meta charset=""UTF-8"">
     <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-    <title>{title}</title>
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    
+    <!-- Primary Meta Tags -->
+    <title>{title} - Przemyslaw Kowalski</title>
+    <meta name=""title"" content=""{title} - Przemyslaw Kowalski"">
+    <meta name=""description"" content=""Professional resume and portfolio of Przemyslaw Kowalski. View online or download as PDF."">
+    <meta name=""keywords"" content=""resume, cv, portfolio, Przemyslaw Kowalski, professional"">
+    <meta name=""author"" content=""Przemyslaw Kowalski"">
+    <meta name=""robots"" content=""index, follow"">
+    <meta name=""language"" content=""English"">
+    <meta name=""revisit-after"" content=""7 days"">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property=""og:type"" content=""profile"">
+    <meta property=""og:url"" content=""https://przemyslawkowalskipk.github.io/"">
+    <meta property=""og:title"" content=""{title} - Przemyslaw Kowalski"">
+    <meta property=""og:description"" content=""Professional resume and portfolio of Przemyslaw Kowalski. View online or download as PDF."">
+    <meta property=""og:site_name"" content=""Przemyslaw Kowalski - Resume"">
+    <meta property=""og:image"" content=""https://przemyslawkowalskipk.github.io/assets/icons/android-chrome-512x512.png"">
+    <meta property=""og:image:width"" content=""512"">
+    <meta property=""og:image:height"" content=""512"">
+    <meta property=""og:image:type"" content=""image/png"">
+    
+    <!-- Twitter -->
+    <meta property=""twitter:card"" content=""summary"">
+    <meta property=""twitter:url"" content=""https://przemyslawkowalskipk.github.io/"">
+    <meta property=""twitter:title"" content=""{title} - Przemyslaw Kowalski"">
+    <meta property=""twitter:description"" content=""Professional resume and portfolio of Przemyslaw Kowalski. View online or download as PDF."">
+    <meta property=""twitter:image"" content=""https://przemyslawkowalskipk.github.io/assets/icons/android-chrome-512x512.png"">
+    
+    <!-- Canonical URL -->
+    <link rel=""canonical"" href=""https://przemyslawkowalskipk.github.io/PrzemyslawKowalskiResume.html"">
+    
+    <!-- Favicons -->
+    <link rel=""icon"" type=""image/x-icon"" href=""/favicon.ico"">
+    <link rel=""icon"" type=""image/png"" sizes=""16x16"" href=""/assets/icons/favicon-16x16.png"">
+    <link rel=""icon"" type=""image/png"" sizes=""32x32"" href=""/assets/icons/favicon-32x32.png"">
+    <link rel=""apple-touch-icon"" sizes=""180x180"" href=""/assets/icons/apple-touch-icon.png"">
+    
+    <!-- PWA Manifest -->
+    <link rel=""manifest"" href=""/manifest.json"">
+    <meta name=""theme-color"" content=""#3498db"">
+    <meta name=""apple-mobile-web-app-capable"" content=""yes"">
+    <meta name=""apple-mobile-web-app-status-bar-style"" content=""black-translucent"">
+    <meta name=""apple-mobile-web-app-title"" content=""PK Resume"">
+    <meta name=""mobile-web-app-capable"" content=""yes"">
+    <meta name=""application-name"" content=""PK Resume"">
+    
+    <!-- Additional Resources -->
+    <link rel=""alternate"" type=""application/pdf"" href=""/PrzemyslawKowalskiResume.pdf"">
+    
+    <!-- DNS Prefetch for performance -->
+    <link rel=""dns-prefetch"" href=""//github.com"">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type=""application/ld+json"">
+    {{
+        ""@context"": ""https://schema.org"",
+        ""@type"": ""Person"",
+        ""name"": ""Przemyslaw Kowalski"",
+        ""url"": ""https://przemyslawkowalskipk.github.io"",
+        ""sameAs"": [
+            ""https://github.com/PrzemyslawKowalskiPK""
+        ],
+        ""jobTitle"": ""Professional"",
+        ""description"": ""Professional resume and portfolio""
+    }}
+    </script>
+    
     <style>
 {GetStyles()}
     </style>

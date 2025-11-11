@@ -69,9 +69,11 @@ jobs:
           git add LICENSE
           git add README.md
 
-          # Add favicon if exists
+          # Add assets directory with icons
+          git add assets/ 2>/dev/null || true
+
+          # Add favicon
           git add favicon.ico 2>/dev/null || true
-          git add icon-*.png 2>/dev/null || true
 
           # Commit and push
           git commit -m "Deploy resume - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
