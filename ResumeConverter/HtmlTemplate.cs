@@ -98,7 +98,6 @@ public static class HtmlTemplate
     </style>
 </head>
 <body>
-    <a href=""#main-content"" class=""skip-link"">Skip to main content</a>
     {downloadLink}
     <main id=""main-content"" role=""main"">
         {htmlBody}
