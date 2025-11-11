@@ -13,11 +13,9 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-deploy:
+  build:
+    name: Build Resume (HTML & PDF)
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       # Checkout the repository
@@ -73,6 +71,51 @@ jobs:
           test -f PrzemyslawKowalskiResume.pdf || exit 1
           echo "✓ HTML and PDF files generated successfully"
 
+      # Prepare deployment artifacts
+      - name: Prepare deployment directory
+        run: |
+          mkdir -p deploy
+          cp index.html deploy/ 2>/dev/null || echo "No index.html"
+          cp PrzemyslawKowalskiResume.html deploy/
+          cp PrzemyslawKowalskiResume.pdf deploy/
+          cp robots.txt deploy/
+          cp llms.txt deploy/
+          cp sitemap.xml deploy/
+          cp manifest.json deploy/
+          cp LICENSE deploy/
+          cp README.md deploy/
+          cp favicon.ico deploy/ 2>/dev/null || echo "No favicon.ico"
+          cp -r assets deploy/ 2>/dev/null || echo "No assets directory"
+          ls -la deploy/
+
+      # Upload build artifacts
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-build
+          path: deploy/
+          retention-days: 1
+
+  deploy-release-branch:
+    name: Deploy to Release Branch
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Download build artifacts
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: resume-build
+          path: deploy/
+
       # Deploy to release branch
       - name: Deploy to release branch
         run: |
@@ -83,34 +126,43 @@ jobs:
           git fetch origin release || true
           git checkout -B release
 
-          # Keep only necessary files for GitHub Pages
-          git rm -rf --cached .
-          git add index.html
-          git add PrzemyslawKowalskiResume.html -f
-          git add PrzemyslawKowalskiResume.pdf -f
-          git add robots.txt
-          git add llms.txt
-          git add sitemap.xml
-          git add manifest.json
-          git add LICENSE
-          git add README.md
+          # Remove all files except .git
+          git rm -rf . 2>/dev/null || true
 
-          # Add assets directory with icons
-          git add assets/ 2>/dev/null || true
+          # Copy built files from deploy directory
+          cp -r deploy/* .
 
-          # Add favicon
-          git add favicon.ico 2>/dev/null || true
+          # Add all files
+          git add -A
 
           # Commit and push
           git commit -m "Deploy resume - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push -f origin release
+
+  deploy-github-pages:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # Download build artifacts
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: resume-build
+          path: .
 
       # Setup GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       # Upload artifact for GitHub Pages
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "."
