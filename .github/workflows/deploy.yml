@@ -83,8 +83,8 @@ jobs:
           # Keep only necessary files for GitHub Pages
           git rm -rf --cached .
           git add index.html
-          git add PrzemyslawKowalskiResume.html
-          git add PrzemyslawKowalskiResume.pdf
+          git add PrzemyslawKowalskiResume.html -f
+          git add PrzemyslawKowalskiResume.pdf -f
           git add robots.txt
           git add llms.txt
           git add sitemap.xml
