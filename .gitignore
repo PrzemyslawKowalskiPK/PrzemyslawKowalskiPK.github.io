@@ -52,3 +52,10 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Resume Converter outputs
+RESUME.html
+RESUME.pdf
+
+# PuppeteerSharp browser download
+.local-chromium/
