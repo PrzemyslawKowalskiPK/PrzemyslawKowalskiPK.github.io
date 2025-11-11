@@ -18,11 +18,8 @@ public class PdfGenerator
         var browserFetcher = new BrowserFetcher();
         await browserFetcher.DownloadAsync();
 
-        // Launch browser
-        await using var browser = await Puppeteer.LaunchAsync(new LaunchOptions
-        {
-            Headless = true
-        });
+        // Launch browser with appropriate options
+        await using var browser = await Puppeteer.LaunchAsync(CreateLaunchOptions());
 
         // Create page and set content
         await using var page = await browser.NewPageAsync();
@@ -30,6 +27,30 @@ public class PdfGenerator
 
         // Generate PDF with specified options
         await page.PdfAsync(outputPath, CreatePdfOptions());
+    }
+
+    /// <summary>
+    /// Creates browser launch options, detecting CI/CD environment
+    /// </summary>
+    private static LaunchOptions CreateLaunchOptions()
+    {
+        var options = new LaunchOptions
+        {
+            Headless = true
+        };
+
+        // Detect CI/CD environment (GitHub Actions, GitLab CI, etc.)
+        var isCI = !string.IsNullOrEmpty(Environment.GetEnvironmentVariable("CI")) ||
+                   !string.IsNullOrEmpty(Environment.GetEnvironmentVariable("GITHUB_ACTIONS")) ||
+                   !string.IsNullOrEmpty(Environment.GetEnvironmentVariable("GITLAB_CI"));
+
+        if (isCI)
+        {
+            // CI/CD environments require --no-sandbox flag
+            options.Args = new[] { "--no-sandbox", "--disable-setuid-sandbox" };
+        }
+
+        return options;
     }
 
     /// <summary>

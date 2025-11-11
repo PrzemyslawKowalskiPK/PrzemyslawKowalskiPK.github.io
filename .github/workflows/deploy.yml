@@ -27,6 +27,25 @@ jobs:
         with:
           dotnet-version: "10.0.x"
 
+      # Install Chromium dependencies for PDF generation
+      - name: Install Chromium dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 \
+            libatk-bridge2.0-0 \
+            libxkbcommon0 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxfixes3 \
+            libxrandr2 \
+            libgbm1 \
+            libpango-1.0-0 \
+            libcairo2 \
+            libasound2 \
+            libatspi2.0-0 \
+            libcups2
+
       # Restore dependencies
       - name: Restore dependencies
         run: dotnet restore ResumeConverter/ResumeConverter.csproj
