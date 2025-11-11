@@ -11,7 +11,7 @@ public static class AppConstants
     public static class FileNames
     {
         public const string InputMarkdown = "RESUME.md";
-        public const string OutputHtml = "RESUME.html";
+        public const string OutputHtml = "PrzemyslawKowalskiResume.html";
         public const string OutputPdf = "PrzemyslawKowalskiResume.pdf";
     }
 
