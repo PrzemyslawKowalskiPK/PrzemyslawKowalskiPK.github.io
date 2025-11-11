@@ -36,10 +36,13 @@ public class ResumeConverterService
             Console.WriteLine(AppConstants.Messages.ReadingFile, _pathResolver.InputPath);
             var markdownContent = await File.ReadAllTextAsync(_pathResolver.InputPath);
 
+            // Extract title from markdown for SEO
+            var title = ExtractTitle(markdownContent);
+
             // Convert to HTML
             Console.WriteLine(AppConstants.Messages.ConvertingToHtml);
             var htmlBody = _markdownConverter.ConvertToHtml(markdownContent);
-            var htmlDocument = HtmlTemplate.CreateDocument(htmlBody);
+            var htmlDocument = HtmlTemplate.CreateDocument(htmlBody, title);
 
             // Save HTML file
             Console.WriteLine(AppConstants.Messages.SavingHtml, _pathResolver.HtmlOutputPath);
@@ -81,5 +84,50 @@ public class ResumeConverterService
     {
         Console.WriteLine(AppConstants.Messages.FileNotFound, inputPath);
         Console.WriteLine(AppConstants.Messages.CreateFilePrompt);
+    }
+
+    /// <summary>
+    /// Extracts the title from markdown content for SEO purposes
+    /// Looks for the first H1 heading and optional subtitle
+    /// </summary>
+    private static string ExtractTitle(string markdownContent)
+    {
+        var lines = markdownContent.Split('\n');
+        string? name = null;
+        string? subtitle = null;
+
+        foreach (var line in lines)
+        {
+            var trimmedLine = line.Trim();
+
+            // First H1 heading (# Title)
+            if (trimmedLine.StartsWith("# ") && name == null)
+            {
+                name = trimmedLine.Substring(2).Trim();
+            }
+            // Bold text on next lines (typically the subtitle/role)
+            else if (name != null && trimmedLine.StartsWith("**") && trimmedLine.EndsWith("**"))
+            {
+                subtitle = trimmedLine.Trim('*').Trim();
+                break;
+            }
+            // Stop at first horizontal rule or empty content section
+            else if (!string.IsNullOrWhiteSpace(trimmedLine) && trimmedLine.StartsWith("---"))
+            {
+                break;
+            }
+        }
+
+        // Construct the title
+        if (name != null && subtitle != null)
+        {
+            return $"{name} - {subtitle}";
+        }
+        else if (name != null)
+        {
+            return name;
+        }
+
+        return "Resume";
     }
 }

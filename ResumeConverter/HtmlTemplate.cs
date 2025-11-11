@@ -9,15 +9,16 @@ public static class HtmlTemplate
     /// Creates a complete HTML document with professional styling
     /// </summary>
     /// <param name="htmlBody">The converted HTML content from Markdown</param>
+    /// <param name="title">The page title for SEO</param>
     /// <returns>Complete HTML document as string</returns>
-    public static string CreateDocument(string htmlBody)
+    public static string CreateDocument(string htmlBody, string title = "Resume")
     {
         return $@"<!DOCTYPE html>
 <html lang=""en"">
 <head>
     <meta charset=""UTF-8"">
     <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-    <title>Resume</title>
+    <title>{title}</title>
     <style>
 {GetStyles()}
     </style>

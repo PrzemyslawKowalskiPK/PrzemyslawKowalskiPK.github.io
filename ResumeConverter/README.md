@@ -4,8 +4,8 @@ A simple .NET 10 console application that converts Markdown resumes to HTML and 
 
 ## Features
 
-- ✅ Converts `RESUME.md` to styled `RESUME.html`
-- ✅ Generates professional `RESUME.pdf` with proper formatting
+- ✅ Converts `RESUME.md` to styled `PrzemyslawKowalskiResume.html`
+- ✅ Generates professional `PrzemyslawKowalskiResume.pdf` with proper formatting
 - ✅ Uses industry-standard open-source packages
 - ✅ Professional styling optimized for resumes
 - ✅ Supports all Markdown features (tables, lists, code blocks, etc.)
@@ -54,8 +54,8 @@ A simple .NET 10 console application that converts Markdown resumes to HTML and 
    ```
 
 4. **Output files will be created in the root directory:**
-   - `RESUME.html` - Styled HTML version
-   - `RESUME.pdf` - PDF version ready to print or share
+   - `PrzemyslawKowalskiResume.html` - Styled HTML version
+   - `PrzemyslawKowalskiResume.pdf` - PDF version ready to print or share
 
 ## How It Works
 

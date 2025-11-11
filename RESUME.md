@@ -1,79 +1,128 @@
-# John Doe
+# Przemysław K.
 
-**Email:** john.doe@example.com | **Phone:** +1 (555) 123-4567 | **Location:** New York, NY  
-**LinkedIn:** linkedin.com/in/johndoe | **GitHub:** github.com/johndoe
+Full-Stack .NET Engineer
 
----
+**[📄 Download PDF Resume](PrzemyslawKowalskiResume.pdf)**
+
+[przemyslawkowalski01pk@gmail.com](mailto:przemyslawkowalski01pk@gmail.com)
+[LinkedIn](https://linkedin.com/in/przemyslaw-kowalski-pk)
+[GitHub](https://github.com/PrzemyslawKowalskiPK)
 
 ## Summary
 
-Experienced Software Engineer with 5+ years of expertise in full-stack development, specializing in .NET, C#, and cloud technologies. Proven track record of delivering scalable applications and leading cross-functional teams.
+### 5+ years of experience
+
+Full-stack .NET developer with 5+ years of hands-on experience in building end-to-end web applications, mainly in the legal and financial domains. Skilled in C#/.NET 6–8, ASP.NET, EF Core, SQL Server, Angular, TypeScript, and Docker, with proven ability to design, implement, and maintain scalable applications in Agile/Scrum environments.
+
+Experienced in developing APIs, microservices, CI/CD pipelines (Bitbucket, GitHub), and automated testing (unit, integration, E2E). Successfully improved system performance by analyzing SQL queries/backend pitfalls and security by applying OWASP standards and streamlining CI/CD processes, reducing manual work time by over 80%.
+
+Hands-on with Azure services, Office 365 integrations (Outlook, OneDrive, SharePoint), RabbitMQ, and containerization. Strong database background in SQL (MSSQL, T-SQL), with exposure to NoSQL systems. Actively mentoring peers, practicing pair programming, and contributing to knowledge sharing within the team.
+
+Holding an Engineer's degree in Information Technology from Lodz University of Technology and certification in AI.
+
+Looking for opportunities in financial, banking, education, automotive industries that relies upon world-wide (global) systems using cloud computing along with microservices architecture.
 
 ---
 
 ## Experience
 
-### Senior Software Engineer
+### Full-Stack Web Engineer
 
-**Tech Solutions Inc.** | _New York, NY_ | **Jan 2022 - Present**
+**Kambit sp. z o.o.**  
+_May 2021 – Present_
 
-- Architected and developed microservices using .NET 8 and Azure, improving system performance by 40%
-- Led a team of 5 developers in building a customer portal serving 100K+ users
-- Implemented CI/CD pipelines using Azure DevOps, reducing deployment time by 60%
-- Mentored junior developers and conducted code reviews
+**Responsibilities:**
 
-### Software Engineer
+- Developing end-to-end web applications in Scrum for the Polish legal industry that automate debt collection, legal processes, fiscal operations (online payments integration, invoicing, JPK, financial documents printout using docx/pdf, xls/-x system imports), tracking work, report and support effective strategy/decision-making in law firms.
+- Implemented OWASP rules - improved security policies for ISO 27001 compliance.
+- Unit/integration/e2e testing.
+- Automated CI/CD - reduced manual work time by 83% from 30mins to 5mins.
+- Improved company version control, track revisions and workflow on Jira/Bitbucket.
+- Actively mentoring/pair programming. Integrating apps with Microsoft Office 365 APIs (OneDrive, Outlook, SharePoint) via Azure Portal configuration.
+- Testing Azure AI Platform for internal purposes using FastAPI (Python).
 
-**Digital Innovations LLC** | _Boston, MA_ | **Jun 2019 - Dec 2021**
+**Tools & tech:**
 
-- Developed RESTful APIs using ASP.NET Core and Entity Framework
-- Built responsive web applications with React and TypeScript
-- Collaborated with product teams to deliver features on tight deadlines
-- Optimized database queries, reducing response time by 30%
+CRUD APIs • Angular 14-20 • C# • ASP.NET 6/8 • ASP.NET Framework 4.5+ • ASP.NET Core 3.1 • EF Core • TypeScript • Bootstrap • Unit tests • Integration tests • E2E tests • RabbitMQ • Nginx • Docker • Monolith • Modular monolith • Microservices • SQL Server (T-Sql/MSSQL) • Git • Jira • Bitbucket • Confluence • JWT • Serilog • DDD • SOLID • Design patterns
 
----
+### Full-Stack Web Engineer
 
-## Education
+**EDC Expert Direct Communication Sp. z o.o**  
+_July 2020 - Aug 2020_
 
-### Bachelor of Science in Computer Science
+**Responsibilities:**
 
-**University of Technology** | _Boston, MA_ | **2015 - 2019**
+- Building responsive end-to-end web application for financial services company that automates e-mail push notifications about incoming payment term.
 
-- GPA: 3.8/4.0
-- Dean's List: 2016-2019
+**Tools & tech:**
+
+ASP.NET Core • Bootstrap • SQLite • React
+
+### Full-Stack Web Engineer
+
+**Oltre Solutions Srl**  
+_Nov 2019 - Oct 2019_
+
+**Responsibilities:**
+
+- Communication with Italian co-workers and mentors only in English. Abroad internship organized within the framework of a systemic project "International educational mobility of students, graduates and vocational education staff" (POWER 2019).
+
+**Tools & tech:**
+
+Java • Bootstrap • MySQL
 
 ---
 
 ## Skills
 
-**Programming Languages:** C#, JavaScript, TypeScript, Python, SQL  
-**Frameworks & Technologies:** .NET, ASP.NET Core, Entity Framework, React, Angular  
-**Cloud & DevOps:** Azure, AWS, Docker, Kubernetes, CI/CD  
-**Databases:** SQL Server, PostgreSQL, MongoDB, Redis  
-**Tools:** Git, Visual Studio, VS Code, Azure DevOps, JIRA
+**Frontend:**  
+Angular • Bootstrap • TypeScript
 
----
+**Backend:**  
+C#/.NET 6/8 (ASP.NET) • EF Core • SQL Server (T-Sql/MSSQL) • Python
 
-## Certifications
+**DevOps:**  
+Nginx • Docker • RabbitMQ • Bitbucket • GitHub
 
-- Microsoft Certified: Azure Developer Associate (2023)
-- AWS Certified Solutions Architect (2022)
+**Testing:**  
+Unit tests • Integration tests • E2E tests
 
----
-
-## Projects
-
-### E-Commerce Platform
-
-Built a full-stack e-commerce solution using .NET 8, React, and Azure. Implemented payment processing, inventory management, and real-time notifications.
-
-### Open Source Contributions
-
-Active contributor to various .NET open-source projects with 500+ stars on GitHub.
+**Project Management:**  
+Jira • Bitbucket • GitHub • Confluence
 
 ---
 
 ## Languages
 
-- English (Native)
-- Spanish (Intermediate)
+- **English** - Upper-Intermediate (B2)
+- **Polish** – Native
+
+---
+
+## Education
+
+### Lodz University of Technology
+
+**Information Technology (Master's degree)**  
+_2025 – Present_
+
+### Lodz University of Technology
+
+**Information Technology (Engineering's degree)**  
+_2021 – 2025_
+
+### Secondary School Complex
+
+**Information Technology (IT Technician)**  
+_2017 – 2021_
+
+---
+
+## Certifications
+
+**AI_devs3 RELOADED**  
+_August 2025_
+
+---
+
+**[📄 Download PDF Resume](PrzemyslawKowalskiResume.pdf)**

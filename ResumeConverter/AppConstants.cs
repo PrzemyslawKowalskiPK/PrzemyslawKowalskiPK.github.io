@@ -12,7 +12,7 @@ public static class AppConstants
     {
         public const string InputMarkdown = "RESUME.md";
         public const string OutputHtml = "RESUME.html";
-        public const string OutputPdf = "RESUME.pdf";
+        public const string OutputPdf = "PrzemyslawKowalskiResume.pdf";
     }
 
     /// <summary>
