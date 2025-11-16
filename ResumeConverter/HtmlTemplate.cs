@@ -9,10 +9,11 @@ public static class HtmlTemplate
     /// Creates a complete HTML document with professional styling
     /// </summary>
     /// <param name="htmlBody">The converted HTML content from Markdown</param>
-    /// <param name="title">The page title for SEO</param>
     /// <returns>Complete HTML document as string</returns>
-    public static string CreateDocument(string htmlBody, string title = "Resume")
+    public static string CreateDocument(string htmlBody)
     {
+        const string title = "Przemyslaw Kowalski - Resume";
+
         var downloadLink = @"<div class=""download-button"" style=""text-align: center; margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-radius: 5px;"">
     <a href=""PrzemyslawKowalskiResume.pdf"" download style=""display: inline-block; padding: 12px 24px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"" aria-label=""Download resume as PDF"">
         Download PDF
@@ -27,8 +28,8 @@ public static class HtmlTemplate
     <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
     
     <!-- Primary Meta Tags -->
-    <title>{title} - Przemyslaw Kowalski</title>
-    <meta name=""title"" content=""{title} - Przemyslaw Kowalski"">
+    <title>{title}</title>
+    <meta name=""title"" content=""{title}"">
     <meta name=""description"" content=""Professional resume and portfolio of Przemyslaw Kowalski. View online or download as PDF."">
     <meta name=""keywords"" content=""resume, cv, portfolio, Przemyslaw Kowalski, professional"">
     <meta name=""author"" content=""Przemyslaw Kowalski"">
@@ -39,7 +40,7 @@ public static class HtmlTemplate
     <!-- Open Graph / Facebook -->
     <meta property=""og:type"" content=""profile"">
     <meta property=""og:url"" content=""https://przemyslawkowalskipk.github.io/"">
-    <meta property=""og:title"" content=""{title} - Przemyslaw Kowalski"">
+    <meta property=""og:title"" content=""{title}"">
     <meta property=""og:description"" content=""Professional resume and portfolio of Przemyslaw Kowalski. View online or download as PDF."">
     <meta property=""og:site_name"" content=""Przemyslaw Kowalski - Resume"">
     <meta property=""og:image"" content=""https://przemyslawkowalskipk.github.io/assets/icons/android-chrome-512x512.png"">
@@ -50,7 +51,7 @@ public static class HtmlTemplate
     <!-- Twitter -->
     <meta property=""twitter:card"" content=""summary"">
     <meta property=""twitter:url"" content=""https://przemyslawkowalskipk.github.io/"">
-    <meta property=""twitter:title"" content=""{title} - Przemyslaw Kowalski"">
+    <meta property=""twitter:title"" content=""{title}"">
     <meta property=""twitter:description"" content=""Professional resume and portfolio of Przemyslaw Kowalski. View online or download as PDF."">
     <meta property=""twitter:image"" content=""https://przemyslawkowalskipk.github.io/assets/icons/android-chrome-512x512.png"">
     
