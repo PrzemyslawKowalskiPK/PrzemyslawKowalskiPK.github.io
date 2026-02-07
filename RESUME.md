@@ -45,7 +45,23 @@ _May 2021 – Present_
 
 **Tools & tech:**
 
-CRUD APIs • Angular 14-20 • C# • ASP.NET 5/6/8/10 • ASP.NET Framework 4.5+ • ASP.NET Core 3.1 • EF Core • TypeScript • Bootstrap • Unit tests • Integration tests • E2E tests • RabbitMQ • Nginx • Docker • Monolith • Modular monolith • Microservices • SQL Server (T-Sql/MSSQL) • Git • Jira • Bitbucket • Confluence • JWT • Serilog • DDD • SOLID • Design patterns
+**Frontend:**  
+Angular 14-20 • TypeScript • Bootstrap
+
+**Backend:**  
+C# • ASP.NET 5/6/8/10 • ASP.NET Framework 4.5+ • ASP.NET Core 3.1 • EF Core • SQL Server (T-Sql/MSSQL) • RabbitMQ • Serilog • JWT
+
+**Architecture:**  
+Monolith • Modular monolith • Microservices • CRUD APIs • DDD • SOLID • Design patterns
+
+**DevOps:**  
+Nginx • Docker
+
+**Testing:**  
+Unit tests • Integration tests • E2E tests
+
+**Tools:**  
+Git • Jira • Bitbucket • Confluence
 
 ### Full-Stack Web Engineer
 
@@ -58,7 +74,11 @@ _July 2020 - Aug 2020_
 
 **Tools & tech:**
 
-Java • Bootstrap • SQLite • React
+**Frontend:**  
+React • Bootstrap
+
+**Backend:**  
+Java • SQLite
 
 ### Full-Stack Web Engineer
 
@@ -71,7 +91,11 @@ _Nov 2019 - Oct 2019_
 
 **Tools & tech:**
 
-ASP.NET Core • Bootstrap • MySQL
+**Backend:**  
+ASP.NET Core • MySQL
+
+**Frontend:**  
+ASP.NET MVC • Bootstrap
 
 ---
 
