@@ -1,4 +1,7 @@
-# Przemysław Kowalski
+<div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #ffaa33; padding-bottom: 10px; margin-bottom: 0.5em;">
+    <h1 style="border-bottom: none; margin-bottom: 0; padding-bottom: 0; margin-right: 20px;">Przemysław Kowalski</h1>
+    <img src="assets/images/przemyslaw-kowalski.jpg" alt="Przemysław Kowalski" width="75" height="75" style="border-radius: 50%;" />
+</div>
 
 Full-Stack .NET Engineer
 
@@ -27,7 +30,7 @@ Looking for opportunities in financial, banking, insurance, education, automotiv
 ### Full-Stack Web Engineer
 
 **Kambit sp. z o.o.**  
-_May 2021 – Present_
+_2021 – 2025_
 
 **Impact & Achievements:**
 

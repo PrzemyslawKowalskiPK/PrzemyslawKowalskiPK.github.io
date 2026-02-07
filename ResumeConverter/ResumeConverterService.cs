@@ -51,7 +51,7 @@ public class ResumeConverterService
             Console.WriteLine(AppConstants.Messages.DownloadingChromium);
 
             Console.WriteLine(AppConstants.Messages.SavingPdf, _pathResolver.PdfOutputPath);
-            await _pdfGenerator.GenerateAsync(htmlDocument, _pathResolver.PdfOutputPath);
+            await _pdfGenerator.GenerateAsync(_pathResolver.HtmlOutputPath, _pathResolver.PdfOutputPath);
 
             Console.WriteLine(AppConstants.Messages.PdfSuccess);
             PrintSuccess();
