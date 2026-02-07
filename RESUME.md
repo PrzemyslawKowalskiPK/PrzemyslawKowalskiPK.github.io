@@ -44,7 +44,7 @@ _Jan 2026 – Present_
 **Tools & tech:**
 
 **Frontend:**  
-Angular 19
+Angular 19 • Tailwind
 
 **Backend:**  
 .NET 8 • PostgreSQL
