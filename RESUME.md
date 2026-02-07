@@ -126,3 +126,7 @@ _2017 – 2021_
 
 **AI_devs3 RELOADED**  
 _August 2025_
+
+---
+
+Interested in working together? Let's talk: [przemyslawkowalski01pk@gmail.com](mailto:przemyslawkowalski01pk@gmail.com)
