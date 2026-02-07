@@ -2,7 +2,7 @@
 
 Full-Stack .NET Engineer
 
-📧 [przemyslawkowalski01pk@gmail.com](mailto:przemyslawkowalski01pk@gmail.com)  
+📧 [przemyslawkowalski01pk@gmail.com](mailto:przemyslawkowalski01pk@gmail.com?subject=Job%20Offer%20-%20Full-Stack%20.NET%20Engineer)  
 💼 [LinkedIn](https://linkedin.com/in/przemyslaw-kowalski-pk)  
 🔗 [GitHub](https://github.com/PrzemyslawKowalskiPK)
 
@@ -155,4 +155,4 @@ _August 2025_
 
 ---
 
-Interested in working together? Let's talk: [przemyslawkowalski01pk@gmail.com](mailto:przemyslawkowalski01pk@gmail.com)
+Interested in working together? Let's talk: [przemyslawkowalski01pk@gmail.com](mailto:przemyslawkowalski01pk@gmail.com?subject=Job%20Offer%20-%20Full-Stack%20.NET%20Engineer)
