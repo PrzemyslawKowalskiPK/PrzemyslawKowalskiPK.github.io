@@ -30,7 +30,7 @@ Looking for opportunities in financial, banking, insurance, education, automotiv
 ### Full-Stack Web Engineer
 
 **Kambit sp. z o.o.**  
-_2021 – 2025_
+_May 2021 – Dec 2025_
 
 **Impact & Achievements:**
 
