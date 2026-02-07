@@ -13,11 +13,11 @@ Full-Stack .NET Engineer
 
 ### 5+ years of experience
 
-Full-stack .NET developer with 5+ years of hands-on experience in building end-to-end web applications, mainly in the legal and financial domains. Skilled in C#/.NET 5/6/8/10, ASP.NET, EF Core, SQL Server, Angular, TypeScript, and Docker, with proven ability to design, implement, and maintain scalable applications in Agile/Scrum environments.
+Full-stack .NET developer with 5+ years of hands-on experience in building end-to-end web applications, mainly in the legal, financial, and insurance domains. Skilled in C#/.NET 5/6/8/10, ASP.NET, EF Core, SQL Server, PostgreSQL, Angular (up to v19), TypeScript, and Docker. Proven ability to design, implement, and maintain scalable applications using Microservices and Microfrontends architectures in Agile/Scrum environments.
 
-Experienced in developing APIs, microservices, CI/CD pipelines (Bitbucket, GitHub), and automated testing (unit, integration, E2E). Successfully improved system performance by analyzing SQL queries/backend pitfalls, enhanced UI/UX by streamlining critical workflows, and strengthened security by applying OWASP standards. Also streamlined CI/CD processes, reducing manual work time by over 80%.
+Experienced in developing APIs, CI/CD pipelines (Bamboo, Octopus, Bitbucket, GitHub), and automated testing (unit, integration, E2E). Successfully improved system performance, enhanced UI/UX by streamlining critical workflows, and strengthened security by applying OWASP standards. Proficient in working within distributed, multinational teams and outsourced models, collaborating closely with UI/UX designers, QA, and Product Owners.
 
-Hands-on with AWS services, Office 365 integrations (Outlook, OneDrive, SharePoint), RabbitMQ, and containerization. Strong database background in SQL (MSSQL, T-SQL), with exposure to NoSQL systems. Actively mentoring peers, practicing pair programming, and contributing to knowledge sharing within the team.
+Hands-on with AWS cloud infrastructure (EC2, ELB, CloudWatch, DynamoDB, Redis), Office 365 integrations (Outlook, OneDrive, SharePoint), RabbitMQ, and containerization. Strong database background in SQL (MSSQL, PostgreSQL) and NoSQL. Actively mentoring peers, practicing pair programming, and leveraging AI tools like GitHub Copilot.
 
 Holding an Engineer's degree in Information Technology from Lodz University of Technology and certification in AI.
 
@@ -26,6 +26,43 @@ Looking for opportunities in financial, banking, insurance, education, automotiv
 ---
 
 ## Experience
+
+### Full-Stack Web Engineer
+
+**DashDevs LLC**  
+_Jan 2026 – Present_
+
+**Responsibilities:**
+
+- Working in an outsourced model, collaborating with multinational and multicultural teams in the insurance industry for a company relying heavily on big data analysis.
+- Collaborating with UI/UX designers to enhance current legacy state and standardize styling in the company's products.
+- Developing microservices and microfrontends using .NET and Angular on AWS.
+- Working in a Scrum environment, cooperating closely with QA and Product Owners.
+- Cooperating with other teams regarding serviced dependencies to align work management and timelines.
+- Cooperating with the DevOps team to manage infrastructure and ensure proper application configuration.
+
+**Tools & tech:**
+
+**Frontend:**  
+Angular 19
+
+**Backend:**  
+.NET 8 • PostgreSQL
+
+**Cloud:**  
+AWS (EC2, ELB, CloudWatch, DynamoDB, Redis, Cron)
+
+**Architecture:**  
+Microservices • Microfrontends
+
+**DevOps:**  
+Bamboo • Octopus • New Relic • Wiz
+
+**Project Management:**  
+Jira • Bitbucket • Confluence
+
+**AI:**  
+GitHub Copilot
 
 ### Full-Stack Web Engineer
 
@@ -65,8 +102,11 @@ Nginx • Docker
 **Testing:**  
 Unit tests • Integration tests • E2E tests
 
-**Tools:**  
-Git • Jira • Bitbucket • Confluence
+**Project Management:**  
+Jira • Bitbucket • Confluence • Git
+
+**AI:**  
+GitHub Copilot
 
 ### Full-Stack Web Engineer
 
