@@ -33,6 +33,8 @@ _May 2021 – Present_
 
 - Implemented OWASP rules - improved security policies for ISO 27001 compliance.
 - Automated CI/CD - reduced manual work time by 83% from 30mins to 5mins.
+- Optimized CI/CD pipelines, reducing execution time.
+- Upgraded project dependencies and frameworks: Frontend (Angular) & Backend (.NET) to latest versions.
 - Enhanced UI/UX by streamlining critical workflows, reducing user journey from 4+ clicks to a single action.
 - Improved company version control, track revisions and workflow on Jira/Bitbucket.
 
