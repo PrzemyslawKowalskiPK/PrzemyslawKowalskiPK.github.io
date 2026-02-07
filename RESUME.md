@@ -102,13 +102,13 @@ Jira • Bitbucket • GitHub • Confluence
 ### Lodz University of Technology
 
 **Information Technology (Master's degree)**  
-Specialization: Data Science  
+_Specialization: Data Science_  
 _2025 – Present_
 
 ### Lodz University of Technology
 
 **Information Technology (Engineering's degree)**  
-Specialization: Software Engineer  
+_Specialization: Software Engineer_  
 _2021 – 2025_
 
 ### Secondary School Complex
