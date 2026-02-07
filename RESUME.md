@@ -10,11 +10,11 @@ Full-Stack .NET Engineer
 
 ### 5+ years of experience
 
-Full-stack .NET developer with 5+ years of hands-on experience in building end-to-end web applications, mainly in the legal and financial domains. Skilled in C#/.NET 6–8, ASP.NET, EF Core, SQL Server, Angular, TypeScript, and Docker, with proven ability to design, implement, and maintain scalable applications in Agile/Scrum environments.
+Full-stack .NET developer with 5+ years of hands-on experience in building end-to-end web applications, mainly in the legal and financial domains. Skilled in C#/.NET 5/6/8/10, ASP.NET, EF Core, SQL Server, Angular, TypeScript, and Docker, with proven ability to design, implement, and maintain scalable applications in Agile/Scrum environments.
 
 Experienced in developing APIs, microservices, CI/CD pipelines (Bitbucket, GitHub), and automated testing (unit, integration, E2E). Successfully improved system performance by analyzing SQL queries/backend pitfalls and security by applying OWASP standards and streamlining CI/CD processes, reducing manual work time by over 80%.
 
-Hands-on with Azure services, Office 365 integrations (Outlook, OneDrive, SharePoint), RabbitMQ, and containerization. Strong database background in SQL (MSSQL, T-SQL), with exposure to NoSQL systems. Actively mentoring peers, practicing pair programming, and contributing to knowledge sharing within the team.
+Hands-on with AWS services, Office 365 integrations (Outlook, OneDrive, SharePoint), RabbitMQ, and containerization. Strong database background in SQL (MSSQL, T-SQL), with exposure to NoSQL systems. Actively mentoring peers, practicing pair programming, and contributing to knowledge sharing within the team.
 
 Holding an Engineer's degree in Information Technology from Lodz University of Technology and certification in AI.
 
@@ -41,7 +41,7 @@ _May 2021 – Present_
 
 **Tools & tech:**
 
-CRUD APIs • Angular 14-20 • C# • ASP.NET 6/8 • ASP.NET Framework 4.5+ • ASP.NET Core 3.1 • EF Core • TypeScript • Bootstrap • Unit tests • Integration tests • E2E tests • RabbitMQ • Nginx • Docker • Monolith • Modular monolith • Microservices • SQL Server (T-Sql/MSSQL) • Git • Jira • Bitbucket • Confluence • JWT • Serilog • DDD • SOLID • Design patterns
+CRUD APIs • Angular 14-20 • C# • ASP.NET 5/6/8/10 • ASP.NET Framework 4.5+ • ASP.NET Core 3.1 • EF Core • TypeScript • Bootstrap • Unit tests • Integration tests • E2E tests • RabbitMQ • Nginx • Docker • Monolith • Modular monolith • Microservices • SQL Server (T-Sql/MSSQL) • Git • Jira • Bitbucket • Confluence • JWT • Serilog • DDD • SOLID • Design patterns
 
 ### Full-Stack Web Engineer
 
@@ -74,10 +74,10 @@ Java • Bootstrap • MySQL
 ## Skills
 
 **Frontend:**  
-Angular • Bootstrap • TypeScript
+Angular • Bootstrap • Tailwind • TypeScript
 
 **Backend:**  
-C#/.NET 6/8 (ASP.NET) • EF Core • SQL Server (T-Sql/MSSQL) • Python
+C#/.NET 5/6/8/10 (ASP.NET) • EF Core • SQL Server (T-Sql/MSSQL) • Python
 
 **DevOps:**  
 Nginx • Docker • RabbitMQ • Bitbucket • GitHub
@@ -102,11 +102,13 @@ Jira • Bitbucket • GitHub • Confluence
 ### Lodz University of Technology
 
 **Information Technology (Master's degree)**  
+Specialization: Data Science  
 _2025 – Present_
 
 ### Lodz University of Technology
 
 **Information Technology (Engineering's degree)**  
+Specialization: Software Engineer  
 _2021 – 2025_
 
 ### Secondary School Complex
