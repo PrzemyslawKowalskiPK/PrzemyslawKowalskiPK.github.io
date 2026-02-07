@@ -12,13 +12,13 @@ Full-Stack .NET Engineer
 
 Full-stack .NET developer with 5+ years of hands-on experience in building end-to-end web applications, mainly in the legal and financial domains. Skilled in C#/.NET 5/6/8/10, ASP.NET, EF Core, SQL Server, Angular, TypeScript, and Docker, with proven ability to design, implement, and maintain scalable applications in Agile/Scrum environments.
 
-Experienced in developing APIs, microservices, CI/CD pipelines (Bitbucket, GitHub), and automated testing (unit, integration, E2E). Successfully improved system performance by analyzing SQL queries/backend pitfalls and security by applying OWASP standards and streamlining CI/CD processes, reducing manual work time by over 80%.
+Experienced in developing APIs, microservices, CI/CD pipelines (Bitbucket, GitHub), and automated testing (unit, integration, E2E). Successfully improved system performance by analyzing SQL queries/backend pitfalls, enhanced UI/UX by streamlining critical workflows, and strengthened security by applying OWASP standards. Also streamlined CI/CD processes, reducing manual work time by over 80%.
 
 Hands-on with AWS services, Office 365 integrations (Outlook, OneDrive, SharePoint), RabbitMQ, and containerization. Strong database background in SQL (MSSQL, T-SQL), with exposure to NoSQL systems. Actively mentoring peers, practicing pair programming, and contributing to knowledge sharing within the team.
 
 Holding an Engineer's degree in Information Technology from Lodz University of Technology and certification in AI.
 
-Looking for opportunities in financial, banking, education, automotive industries that relies upon world-wide (global) systems using cloud computing along with microservices architecture.
+Looking for opportunities in financial, banking, insurance, education, automotive industries that relies upon world-wide (global) systems using cloud computing along with microservices architecture.
 
 ---
 
