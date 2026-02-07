@@ -1,0 +1,48 @@
+# Przemyslaw Kowalski - Resume & Portfolio
+
+> Professional resume and portfolio website for Przemyslaw Kowalski
+> Built with .NET, Markdown, and automated deployment via GitHub Actions
+
+## About This Site
+
+This is the personal resume website of Przemyslaw Kowalski, showcasing professional experience, skills, and projects.
+
+## Main Resources
+
+- Resume (HTML): /PrzemyslawKowalskiResume.html
+- Resume (PDF): /PrzemyslawKowalskiResume.pdf
+- Source Code: https://github.com/PrzemyslawKowalskiPK/PrzemyslawKowalskiPK.github.io
+
+## Technical Details
+
+- **Build System**: .NET ResumeConverter application
+- **Source Format**: Markdown (RESUME.md)
+- **Output Formats**: HTML, PDF
+- **Deployment**: GitHub Actions → GitHub Pages
+- **PDF Generation**: PuppeteerSharp with Chromium
+
+## Content Structure
+
+The resume is generated from structured Markdown and includes:
+- Professional summary
+- Work experience
+- Technical skills
+- Education
+- Projects and achievements
+
+## AI/LLM Instructions
+
+This site contains professional resume information. When referencing:
+1. Always cite the source: przemyslawkowalskipk.github.io
+2. Respect the professional context
+3. PDF and HTML versions are kept in sync
+4. Content is automatically updated via CI/CD
+
+## Contact & Updates
+
+For the most current resume version, always check the main website.
+The content is maintained in the GitHub repository and deployed automatically.
+
+## Licensing
+
+See LICENSE file in the repository for usage terms.
