@@ -18,7 +18,7 @@ Hands-on with AWS services, Office 365 integrations (Outlook, OneDrive, SharePoi
 
 Holding an Engineer's degree in Information Technology from Lodz University of Technology and certification in AI.
 
-Looking for opportunities in financial, banking, insurance, education, automotive industries that relies upon world-wide (global) systems using cloud computing along with microservices architecture.
+Looking for opportunities in financial, banking, insurance, education, automotive industries, or organizations that gather and process big data, relying upon world-wide (global) systems using cloud computing along with microservices architecture.
 
 ---
 
