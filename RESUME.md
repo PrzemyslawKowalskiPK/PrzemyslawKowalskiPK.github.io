@@ -29,13 +29,17 @@ Looking for opportunities in financial, banking, education, automotive industrie
 **Kambit sp. z o.o.**  
 _May 2021 – Present_
 
+**Impact & Achievements:**
+
+- Implemented OWASP rules - improved security policies for ISO 27001 compliance.
+- Automated CI/CD - reduced manual work time by 83% from 30mins to 5mins.
+- Enhanced UI/UX by streamlining critical workflows, reducing user journey from 4+ clicks to a single action.
+- Improved company version control, track revisions and workflow on Jira/Bitbucket.
+
 **Responsibilities:**
 
-- Developing end-to-end web applications in Scrum for the Polish legal industry that automate debt collection, legal processes, fiscal operations (online payments integration, invoicing, JPK, financial documents printout using docx/pdf, xls/-x system imports), tracking work, report and support effective strategy/decision-making in law firms.
-- Implemented OWASP rules - improved security policies for ISO 27001 compliance.
+- Developing end-to-end web applications using Agile or Scrum methodologies tailored to project requirements for the Polish legal industry that automate debt collection, legal processes, fiscal operations (online payments integration, invoicing, JPK, financial documents printout using docx/pdf, xls/-x system imports), tracking work, report and support effective strategy/decision-making in law firms.
 - Unit/integration/e2e testing.
-- Automated CI/CD - reduced manual work time by 83% from 30mins to 5mins.
-- Improved company version control, track revisions and workflow on Jira/Bitbucket.
 - Actively mentoring/pair programming. Integrating apps with Microsoft Office 365 APIs (OneDrive, Outlook, SharePoint) via Azure Portal configuration.
 - Testing Azure AI Platform for internal purposes using FastAPI (Python).
 
@@ -54,7 +58,7 @@ _July 2020 - Aug 2020_
 
 **Tools & tech:**
 
-ASP.NET Core • Bootstrap • SQLite • React
+Java • Bootstrap • SQLite • React
 
 ### Full-Stack Web Engineer
 
@@ -67,7 +71,7 @@ _Nov 2019 - Oct 2019_
 
 **Tools & tech:**
 
-Java • Bootstrap • MySQL
+ASP.NET Core • Bootstrap • MySQL
 
 ---
 
